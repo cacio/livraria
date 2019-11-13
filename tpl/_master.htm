@@ -12,7 +12,8 @@
 	<link href="../css/bootstrap.min.css" rel="stylesheet">
 	<link href="../css/bootstrap-grid.min.css" rel="stylesheet">
 	<link href="../css/bootstrap-reboot.min.css" rel="stylesheet">
-
+	<link href="../plugins/datatables/jquery.dataTables.min.css" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <style>
       .bd-placeholder-img {
         font-size: 1.125rem;
@@ -29,8 +30,7 @@
         }
       }
     </style>
-    <!-- Custom styles for this template -->
-    <link href="sticky-footer-navbar.css" rel="stylesheet">
+    
   </head>
   <body class="d-flex flex-column h-100">
     <header>
@@ -50,14 +50,19 @@
           Cadastros
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <a class="dropdown-item" href="#">Something else here</a>
+          <a class="dropdown-item" href="#">Fornecedores</a>
+          <a class="dropdown-item" href="lista-funcionario.php">Funcionarios</a>
+          <a class="dropdown-item" href="#">Livros</a>
         </div>
       </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
+         <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Gerencial
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Estoque</a>          
+        </div>
+      </li>
         
       </ul>      
     </div>
@@ -79,5 +84,7 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 <script src="../js/bootstrap.min.js"></script>
 <script src="../js/bootstrap.bundle.min.js"></script>
+<script src="../plugins/datatables/jquery.dataTables.min.js"></script>
+<script src="../js/metodos.js"></script>
 </body>
 </html>
