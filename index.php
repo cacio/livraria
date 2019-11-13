@@ -1,6 +1,6 @@
 <?php
 
-header("location: ./php/home.php");
+header("location: ./php/admin.php");
 
 ?>
  
