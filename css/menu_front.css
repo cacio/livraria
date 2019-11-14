@@ -9,8 +9,8 @@
 	
 }
 .menuadm a {
-	width: 80px;
-	height: 81px;
+	width: 85px;
+	height: 85px;
 	display: inline-block;
 	padding: 2px;
 	text-align: center;
@@ -21,8 +21,8 @@
 	font-weight:bold;
 	font-size:14px;
 }
-.menuadm a img {
-	margin: 4px 0 0 0;
+.menuadm li a img {
+	margin:25px 22px 21.6px 22px;
 }
 .menuadm li {
   padding: 5px; 
