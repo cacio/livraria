@@ -2,5 +2,5 @@
 define('HOST','localhost');
 define('USER','root');
 define('SENHA','');
-define('BD','mydb');
+define('BD','livraria');
 ?>

@@ -1,0 +1,26 @@
+<h1 class="mt-5">Cadastro Fornecedor</h1>
+<form action="fornecedor-exec.php" method="post">
+	<input type="hidden" name="act" value="inserir"/>
+	<div class="row">
+		<div class="form-group col-md-3">
+		  <label>Nome</label>	
+		  <input type="text" class="form-control" name="nome" required placeholder="Digite o nome do fornecedor">
+		</div>
+		<div class="form-group col-md-3">
+		 <label>Endereço</label>	
+		  <input type="text" class="form-control" name="endereco"  required placeholder="Digite seu endereço">
+		</div>				
+	</div>
+	<div class="row">
+		<div class="form-group col-md-3">
+		  <label>Cidade</label>	
+		  <input type="text" class="form-control" name="cidade" required placeholder="Digite sua cidade">
+		</div>
+		<div class="form-group col-md-3">
+		 <label>Telefone</label>	
+		  <input type="text" class="form-control" name="telefone"  required placeholder="Digite seu telefone">
+		</div>				
+	</div>
+	<button type="submit" class="btn btn-primary">Cadastrar</button>
+	<a href="lista-fornecedor.php" class="btn btn-warning">Voltar</a>
+</form>
