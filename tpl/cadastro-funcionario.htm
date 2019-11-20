@@ -1,0 +1,16 @@
+<h1 class="mt-5">Cadastro Funcionario</h1>
+<form action="funcionario-exec.php" method="post">
+	<input type="hidden" name="act" value="inserir"/>
+	<div class="row">
+		<div class="form-group col-md-3">
+		  <label>Nome</label>	
+		  <input type="text" class="form-control" name="nome" required placeholder="Digite o nome do funcionario">
+		</div>
+		<div class="form-group col-md-3">
+		 <label>Data Contratação</label>	
+		  <input type="date" class="form-control" name="datacontratacao" value="{data}" required placeholder="">
+		</div>				
+	</div>
+	<button type="submit" class="btn btn-primary">Cadastrar</button>
+	<a href="lista-funcionario.php" class="btn btn-warning">Voltar</a>
+</form>
