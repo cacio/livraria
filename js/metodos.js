@@ -5,3 +5,9 @@ $('.table').dataTable({
 	"dom": 'Bfrtip',
 	"order": [],					
 });	
+
+$(document).ready(function(){
+  $('.busca-popover').popover({
+	container: 'body'
+  });
+});
