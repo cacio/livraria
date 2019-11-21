@@ -8,7 +8,7 @@
 
 	$tpl = new TemplatePower('../tpl/_master.htm');
 
-	$tpl->assignInclude('conteudo','../tpl/lista-fornecedor.html');
+	$tpl->assignInclude('conteudo','../tpl/lista-fornecedor.htm');
 	
 	$tpl->prepare();
 
